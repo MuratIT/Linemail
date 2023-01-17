@@ -1,0 +1,67 @@
+#Linemail_box {
+	text-decoration: none;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 320px;
+	background: #1c1c1c;
+	border-radius: 5px;
+	padding: 1%;
+	font-family: inherit;
+	color: none;
+}
+#Linemail_box_title,
+#Linemail_box_description {
+	width: 300px;
+	align-self: center;
+	color: #fff;
+	margin-bottom: 3%;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 2%;
+}
+#Linemail_box_title {
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 0;
+	color: #fff;
+	font-weight: 600;
+}
+#Linemail_box_description {
+	font-size: 15px;
+	margin-bottom: 5%;
+	margin-top: 0;
+	word-wrap: break-word;
+}
+#Linemail_form_box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10%;
+}
+#Linemail_form_box_input {
+	align-self: center;
+	width: 90%;
+	height: 35px;
+	margin-bottom: 7%;
+	border: none;
+	outline: none;
+	padding: 2%;
+	color: #515151;
+	border-radius: 2px;
+	background: #f7f7f7;
+	font-size: 15px;
+}
+#Linemail_form_box_submit {
+	align-self: center;
+	width: 70%;
+	height: auto;
+	padding: 5px 20px;
+	border: none;
+	outline: none;
+	background: #91c153;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 5%;
+}

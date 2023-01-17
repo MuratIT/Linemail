@@ -1,0 +1,144 @@
+.Linemail_content_admin {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.Linemail_content_admin-left,
+.Linemail_content_admin-right {
+	width: 50%;
+	min-width: 250px;
+	height: 100%;
+	margin-top: 2%;
+}
+
+.Linemail_content_admin-box {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+	width: 100%;
+	max-width: 500px;
+	min-width: 250px;
+	background: #fff;
+	border-radius: 2px;
+}
+.Linemail_content_admin-box-save {
+	width: 100%;
+	max-width: 500px;
+	min-width: 250px;
+	margin-top: 2%;
+	text-align: right;
+}
+
+.Linemail_content_admin-box-save-button {
+	width: 100px;
+}
+
+.Linemail_content_admin-box h2,
+.Linemail_content_admin_box-input {
+	padding: 2%;
+	margin-bottom: 0;
+}
+
+.Linemail_content_admin_box-line {
+	display: block;
+	width: 100%;
+	height: 1.3px;
+	background: rgba(0,0,0,.1);
+}
+
+.Linemail_content_admin_box-input-text {
+	width: 100%;
+}
+
+.Linemail_content_admin_add {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+}
+
+.Linemail_content_admin_add-box {
+	width: 97%;
+	min-width: 250px;
+	padding: 1%;
+	background: #fff;
+}
+.Linemail_content_admin_add-box-input {
+	margin: 1%;
+	display: flex;
+}
+
+#Linemail_emailaddress,
+#Linemail_topic {
+	width: 70%;
+}
+#Linemail_send_all_button {
+	margin-left: 2%;
+}
+
+.Linemail_label {
+	margin-right: 1%;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.Linemail_content_admin_add-save-button {
+	text-align: right;
+	margin-top: 2%;
+}
+.Linemail_content_admin_add-save-button button {
+	width: 150px;
+}
+
+
+.Linemail_table_content {
+	width: 100%;
+	max-width: 70%;
+	min-width: 750px;
+}
+
+.Linemail_table{
+	border-collapse: collapse;
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Linemail_table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+	text-align: left;
+}
+.Linemail_table td {
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.Linemail_tabletd_button {
+	display: flex;
+	flex-direction: row;
+}
+.Linemail_table td button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.Linemail_table td button:nth-child(odd) {
+	background: #16a0e8;
+}
+
+.Linemail_table td button:nth-child(even) {
+	background: #f36b53;
+}
+
+.Linemail_table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.Linemail_table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}

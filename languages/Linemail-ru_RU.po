@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Linemail\n"
+"POT-Creation-Date: 2021-01-05 17:32+0500\n"
+"PO-Revision-Date: 2021-01-05 17:33+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: Linemail.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-Linemail-admin.php:83
+#: admin/partials/Linemail-admin-display-settings.php:23
+msgid "Enter the SMTP host"
+msgstr "Введите SMTP host"
+
+#: admin/class-Linemail-admin.php:84
+msgid "Enter the SMTP port"
+msgstr "Введите SMTP port"
+
+#: admin/class-Linemail-admin.php:85
+msgid "Enter the SMTP username"
+msgstr "Введите SMTP логин"
+
+#: admin/class-Linemail-admin.php:86
+msgid "Enter the SMTP password"
+msgstr "Введите SMTP пароль"
+
+#: admin/class-Linemail-admin.php:87 admin/class-Linemail-admin.php:93
+msgid "Wait"
+msgstr "Подождите"
+
+#: admin/class-Linemail-admin.php:91
+msgid "Enter who this email will be sent to"
+msgstr "Введите кому будет отправлено это письмо"
+
+#: admin/class-Linemail-admin.php:92
+msgid "Enter messages"
+msgstr "Введите сообщения"
+
+#: admin/class-Linemail-admin.php:104 admin/class-Linemail-admin.php:105
+msgid "Linemail Add"
+msgstr "Linemail"
+
+#: admin/class-Linemail-admin.php:114 admin/class-Linemail-admin.php:115
+msgid "Linemail List"
+msgstr "Linemail список"
+
+#: admin/class-Linemail-admin.php:123 admin/class-Linemail-admin.php:124
+msgid "Linemail Settings"
+msgstr "Linemail  настройки"
+
+#: admin/class-Linemail-admin.php:172
+msgid "Successful saving"
+msgstr "Успешном сохранения"
+
+#: admin/class-Linemail-admin.php:176
+msgid "Something went wrong! Perhaps the data is the same."
+msgstr "Что-то пошло не так! Возможно, данные те же."
+
+#: admin/class-Linemail-admin.php:262
+msgid "Messages sent successfully"
+msgstr "Сообщения успешно отправлено"
+
+#: admin/class-Linemail-admin.php:266
+msgid ""
+"Something went wrong! Unable to send messages. Please check if you entered "
+"the SMTP server data correctly"
+msgstr ""
+"Что-то пошло не так! Невозможно отправлять сообщения. Пожалуйста, проверьте, "
+"правильно ли вы ввели данные SMTP-сервера"
+
+#: admin/class-Linemail-admin.php:272
+msgid "Something went wrong! No SMTP data available"
+msgstr "Что-то пошло не так! Нет доступных SMTP-данных"
+
+#: admin/partials/Linemail-admin-display-add.php:18
+msgid "Add messages"
+msgstr "Создания сообщений"
+
+#: admin/partials/Linemail-admin-display-add.php:21
+msgid "Whom:"
+msgstr "Кому:"
+
+#: admin/partials/Linemail-admin-display-add.php:22
+msgid "Enter who to send"
+msgstr "Введите E-mail адрес"
+
+#: admin/partials/Linemail-admin-display-add.php:23
+msgid "Send All"
+msgstr "Выбрать всех"
+
+#: admin/partials/Linemail-admin-display-add.php:26
+msgid "Topic:"
+msgstr "Тема:"
+
+#: admin/partials/Linemail-admin-display-add.php:27
+msgid "Enter the subject of the email"
+msgstr "Введите тему письма"
+
+#: admin/partials/Linemail-admin-display-add.php:47
+#: admin/partials/Linemail-admin-display-list.php:36
+msgid "Send"
+msgstr "Отправить"
+
+#: admin/partials/Linemail-admin-display-list.php:17
+msgid "List email address"
+msgstr "Список адресов электронной почты"
+
+#: admin/partials/Linemail-admin-display-list.php:21
+msgid "id"
+msgstr "id"
+
+#: admin/partials/Linemail-admin-display-list.php:22
+msgid "First Name"
+msgstr "Имя"
+
+#: admin/partials/Linemail-admin-display-list.php:23
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: admin/partials/Linemail-admin-display-list.php:24
+msgid "E-mail"
+msgstr "Электронная почта"
+
+#: admin/partials/Linemail-admin-display-list.php:25
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/partials/Linemail-admin-display-list.php:37
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/partials/Linemail-admin-display-settings.php:18
+msgid "SMTP server"
+msgstr "SMTP-сервер"
+
+#: admin/partials/Linemail-admin-display-settings.php:20
+msgid "Host SMTP"
+msgstr "Host SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:27
+msgid "Port SMTP"
+msgstr "Port SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:30
+msgid "Enter the SMTP Port"
+msgstr "Введите SMTP-порт"
+
+#: admin/partials/Linemail-admin-display-settings.php:35
+msgid "SMTP user"
+msgstr "Пользователь SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:37
+msgid "Username SMTP"
+msgstr "Имя пользователя SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:40
+msgid "Enter the SMTP Username"
+msgstr "Введите имя пользователя SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:44
+msgid "Password SMTP"
+msgstr "Пароль SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:47
+msgid "Enter the SMTP Password"
+msgstr "Введите пароль SMTP"
+
+#: admin/partials/Linemail-admin-display-settings.php:51
+msgid "Save"
+msgstr "Сохранить"
+
+#: public/class-Linemail-public.php:116
+#: public/widgets/Linemail_email_widget.php:61
+msgid "Thank you for being with them"
+msgstr "Спасибо Вам за то, что вы с ними"
+
+#: public/widgets/Linemail_email_widget.php:7
+msgid "E-mail subscription"
+msgstr "Подписка на рассылку виджет"
+
+#: public/widgets/Linemail_email_widget.php:8
+msgid "For the user to apply for an email newsletter"
+msgstr ""
+"Чтобы пользователь мог подать заявку на рассылку новостей по электронной "
+"почте"
+
+#: public/widgets/Linemail_email_widget.php:28
+msgid "Enter a name"
+msgstr "Введите имя"
+
+#: public/widgets/Linemail_email_widget.php:30
+msgid "Enter your last name"
+msgstr "Введите свою фамилию"
+
+#: public/widgets/Linemail_email_widget.php:32
+msgid "Enter your E-mail address"
+msgstr "Введите свой E-mail"
+
+#: public/widgets/Linemail_email_widget.php:65
+msgid "Title:"
+msgstr "Заголовок виджета"
+
+#: public/widgets/Linemail_email_widget.php:69
+msgid "Decription:"
+msgstr "Описания виджета"
+
+#: public/widgets/Linemail_email_widget.php:73
+msgid "button name:"
+msgstr "Заголовок для кнопки"
+
+#: public/widgets/Linemail_email_widget.php:77
+msgid "A notification of success:"
+msgstr "Уведомление об успехе"
+
+#. Plugin Name of the plugin/theme
+msgid "Linemail"
+msgstr "Linemail"
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin allows you to work with E-mail servers and send messages to E-"
+"mail addresses."
+msgstr ""
+"Плагин позволяет работать с почтовыми серверами и отправлять сообщения на "
+"адреса электронной почты."
+
+#. Author of the plugin/theme
+msgid "Murat Mazitov"
+msgstr "Мурат Мазитов"
+
+#~ msgid " Add"
+#~ msgstr "Добавить"
+
+#~ msgid " List"
+#~ msgstr "Список"
